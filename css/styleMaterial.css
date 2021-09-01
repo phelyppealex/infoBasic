@@ -15,7 +15,7 @@ body {
 header {
   width: 100%;
   background-color: #101010;
-  padding: 10px 20px;
+  padding: 5px 0;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -25,7 +25,7 @@ header {
 .navbar {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 5px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -259,7 +259,6 @@ input.btn {
 .video {
   width: 100%;
 }
-
 
 .embed-container {
   position: relative;
