@@ -151,6 +151,11 @@ header {
   text-align: center;
 }
 
+.logo img{
+  height: 80px;
+  object-fit: cover;
+}
+
 .hambuguer {
   width: 60px;
   height: 60px;
@@ -309,7 +314,7 @@ footer {
 /*Responsividade */
 @media screen and (max-width: 980px) {
   .logo img {
-    height: 110px;
+    height: 70px;
   }
 
   .hambuguer {
