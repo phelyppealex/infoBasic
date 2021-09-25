@@ -13,17 +13,17 @@ body {
 header {
   width: 100%;
   background-color: #101010;
-  padding: 10px 20px;
+  padding: 5px;
   position: fixed;
   top: 0;
   z-index: 1;
 }
 
 /*Config navbar*/
-.navbar {
+.nav {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,6 +38,11 @@ header {
   text-align: center;
 }
 
+.logo img{
+  height: 80px;
+  object-fit: cover;
+}
+
 .hambuguer {
   width: 60px;
   height: 60px;
@@ -46,6 +51,7 @@ header {
   display: none;
   z-index: 999;
 }
+
 .hambuguer:before {
   content: "";
   position: absolute;
@@ -57,6 +63,7 @@ header {
   background-color: #fff;
   transition: 1s ease;
 }
+
 .hambuguer:after {
   content: "";
   position: absolute;
@@ -101,7 +108,6 @@ input {
   padding: 10px 25px;
   text-decoration: none;
   color: #555;
-  font-family: "Prompt";
   transition: 0.5s ease;
 }
 .menu li a:hover {
@@ -194,7 +200,7 @@ footer {
 /*Responsividade */
 @media screen and (max-width: 980px) {
   .logo img {
-    height: 110px;
+    height: 70px;
   }
 
   .hambuguer {
