@@ -365,7 +365,7 @@ footer {
   font-weight: bold;
   border-radius: 10px;
   margin-top: 40px;
-  transition: all 500ms ease-in-out;
+  transition: all 280ms ease-in-out;
   cursor: pointer;
   font-size: 2.5rem;
   padding: 10px 35px;
@@ -375,6 +375,15 @@ footer {
   z-index: 999;
 }
 
+.btn i{
+  font-size: 2rem;
+}
+
+.btn:hover{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  box-shadow: 5px 10px 1px rgba(0, 0, 0, 0.178);
+}
 
 .videos-intro {
   height: auto;
@@ -453,11 +462,20 @@ footer {
     width: 100%;
   }
 
+  .content h1 {
+    font-size: 2.5rem;
+  }
+
   .videos {
     padding: 10px;
     width: 100%;
     grid-template-columns: repeat(1, auto);
     justify-content: center;
     margin-top: 20px;
+  }
+}
+@media screen and (max-width: 533px){
+  .content h1 {
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
