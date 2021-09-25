@@ -26,7 +26,6 @@ header {
   padding: 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .logo {
@@ -93,11 +92,11 @@ input {
   top: 45%;
   left: 15%;
 }
-
 .menu {
   list-style: none;
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 .menu li {
   margin-left: 10px;
