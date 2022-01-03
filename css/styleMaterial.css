@@ -308,11 +308,22 @@ input.btn {
   transition: .25s;
 }
 
+/*POWER POINT*/
 #checkPlalist:checked ~ .btnDrop i{
   transform: rotate(180deg);
 }
 
 #checkPlalist:checked ~ .playlist{
+  display: block;
+  height: 100%;
+}
+
+/*WORD*/
+#checkPlalist2:checked ~ .btnDrop i{
+  transform: rotate(180deg);
+}
+
+#checkPlalist2:checked ~ .playlist{
   display: block;
   height: 100%;
 }

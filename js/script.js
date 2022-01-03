@@ -19,4 +19,5 @@ window.addEventListener('load', function(){
 
 function selectVideo(source){
     document.getElementById('runningVideo').src = source;
+    document.getElementById('runningVideo2').src = source;
 }
