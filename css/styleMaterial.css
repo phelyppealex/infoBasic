@@ -330,7 +330,7 @@ input.btn {
 
 .playlist {
   width: 100%;
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.583);
   border-radius: 8px;
   margin-top: 20px;
   display: none;
@@ -341,7 +341,7 @@ input.btn {
   height: 80px;
   border-bottom: 2px solid white;
   width: 95%;
-  transition: .35s;
+  transition: .25s;
   cursor: pointer;
 }
 
