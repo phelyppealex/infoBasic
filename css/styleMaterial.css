@@ -328,6 +328,66 @@ input.btn {
   height: 100%;
 }
 
+/*CANVA*/
+#checkPlalist3:checked ~ .btnDrop i{
+  transform: rotate(180deg);
+}
+
+#checkPlalist3:checked ~ .playlist{
+  display: block;
+  height: 100%;
+}
+
+/*KineMaster*/
+#checkPlalist4:checked ~ .btnDrop i{
+  transform: rotate(180deg);
+}
+
+#checkPlalist4:checked ~ .playlist{
+  display: block;
+  height: 100%;
+}
+
+/*Google Apresentações*/
+#checkPlalist5:checked ~ .btnDrop i{
+  transform: rotate(180deg);
+}
+
+#checkPlalist5:checked ~ .playlist{
+  display: block;
+  height: 100%;
+}
+
+/*Google Docs*/
+#checkPlalist6:checked ~ .btnDrop i{
+  transform: rotate(180deg);
+}
+
+#checkPlalist6:checked ~ .playlist{
+  display: block;
+  height: 100%;
+}
+
+/*NOTION*/
+#checkPlalist7:checked ~ .btnDrop i{
+  transform: rotate(180deg);
+}
+
+#checkPlalist7:checked ~ .playlist{
+  display: block;
+  height: 100%;
+}
+
+/*Google Keep*/
+#checkPlalist8:checked ~ .btnDrop i{
+  transform: rotate(180deg);
+}
+
+#checkPlalist8:checked ~ .playlist{
+  display: block;
+  height: 100%;
+}
+
 .playlist {
   width: 100%;
   background-color: rgba(0, 0, 255, 0.583);
