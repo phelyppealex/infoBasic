@@ -20,4 +20,10 @@ window.addEventListener('load', function(){
 function selectVideo(source){
     document.getElementById('runningVideo').src = source;
     document.getElementById('runningVideo2').src = source;
+    document.getElementById('runningVideo3').src = source;
+    document.getElementById('runningVideo4').src = source;
+    document.getElementById('runningVideo5').src = source;
+    document.getElementById('runningVideo6').src = source;
+    document.getElementById('runningVideo7').src = source;
+    document.getElementById('runningVideo8').src = source;
 }
